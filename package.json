@@ -1,17 +1,16 @@
 {
-  "name": "megakino-stremio",
+  "name": "megakino-stremio-addon",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "axios": "^1.16.1",
-    "cheerio": "^1.2.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0",
     "stremio-addon-sdk": "^1.6.10"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
